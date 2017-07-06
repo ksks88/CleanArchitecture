@@ -1,8 +1,4 @@
-﻿ 
-
- 
-
-namespace CleanArchitecture.ConsoleApp.Presentation
+﻿namespace CleanArchitecture.ConsoleApp.Presentation
 {
     public class CourseRegistrationResponseViewModel
     {

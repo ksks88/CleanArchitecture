@@ -1,5 +1,4 @@
-﻿
-using CleanArchitecture.Core.Contracts;
+﻿using CleanArchitecture.UseCases.Contracts;
 
 namespace CleanArchitecture.ConsoleApp.Gateways
 {

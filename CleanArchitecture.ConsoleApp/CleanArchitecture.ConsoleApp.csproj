@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CleanArchitecture.Core\CleanArchitecture.Core.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.UseCasesNew\CleanArchitecture.UseCases.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,8 +1,6 @@
-
-
 using System;
 using System.Collections.Generic;
-using CleanArchitecture.Core.Entities;
+using CleanArchitecture.Entities;
 using Xunit;
 
 namespace CleanArchitecture.Tests.Entities

@@ -1,11 +1,10 @@
-﻿ 
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using CleanArchitecture.Core.Contracts;
-using CleanArchitecture.Core.Dto;
-using CleanArchitecture.Core.Entities;
-using CleanArchitecture.Core.UseCases;
+using CleanArchitecture.UseCases.Contracts;
+using CleanArchitecture.UseCases.Dto;
+using CleanArchitecture.Entities;
+using CleanArchitecture.UseCases;
 using Moq;
 using Xunit;
 

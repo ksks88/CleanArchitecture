@@ -1,8 +1,6 @@
-﻿ 
-
-using System.Collections.Generic;
-using CleanArchitecture.Core.Contracts;
-using CleanArchitecture.Core.Entities;
+﻿using System.Collections.Generic;
+using CleanArchitecture.UseCases.Contracts;
+using CleanArchitecture.Entities;
 
 namespace CleanArchitecture.ConsoleApp.Gateways
 {

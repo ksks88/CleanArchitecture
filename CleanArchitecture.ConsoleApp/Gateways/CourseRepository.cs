@@ -1,10 +1,8 @@
-﻿ 
-
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using CleanArchitecture.Core.Contracts;
-using CleanArchitecture.Core.Entities;
+using System.Collections.Generic;
+using CleanArchitecture.UseCases.Contracts;
+using CleanArchitecture.Entities;
 
 namespace CleanArchitecture.ConsoleApp.Gateways
 {
@@ -40,7 +38,7 @@ namespace CleanArchitecture.ConsoleApp.Gateways
             return _store[code];
         }
 
-        public List<Course> GetAll()
+        public IList<Course> GetAll()
         {
             return _store.Values.ToList();
         }

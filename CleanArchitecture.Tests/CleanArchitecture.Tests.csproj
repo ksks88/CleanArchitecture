@@ -12,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CleanArchitecture.Core\CleanArchitecture.Core.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.EntitiesNew\CleanArchitecture.Entities.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.UseCasesNew\CleanArchitecture.UseCases.csproj" />
   </ItemGroup>
 
   <ItemGroup>

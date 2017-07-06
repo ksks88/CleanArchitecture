@@ -1,7 +1,5 @@
-﻿ 
-
-using System.Text;
-using CleanArchitecture.Core.Dto;
+﻿using System.Text;
+using CleanArchitecture.UseCases.Dto;
 
 namespace CleanArchitecture.ConsoleApp.Presentation
 {
@@ -11,7 +9,7 @@ namespace CleanArchitecture.ConsoleApp.Presentation
         {
             if (responseMessage.Success)
             {
-                return new CourseRegistrationResponseViewModel(true,"Course registration successful!");
+                return new CourseRegistrationResponseViewModel(true, "Course registration successful!");
             }
 
             var sb = new StringBuilder();
@@ -21,7 +19,7 @@ namespace CleanArchitecture.ConsoleApp.Presentation
                 sb.AppendLine(e);
             }
 
-            return new CourseRegistrationResponseViewModel(false,sb.ToString());
+            return new CourseRegistrationResponseViewModel(false, sb.ToString());
         }
     }
 }

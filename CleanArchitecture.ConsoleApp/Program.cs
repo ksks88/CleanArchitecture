@@ -1,11 +1,9 @@
-﻿
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using CleanArchitecture.ConsoleApp.Gateways;
 using CleanArchitecture.ConsoleApp.Presentation;
-using CleanArchitecture.Core.Dto;
-using CleanArchitecture.Core.UseCases;
+using CleanArchitecture.UseCases.Dto;
+using CleanArchitecture.UseCases;
 
 namespace CleanArchitecture.ConsoleApp
 {
